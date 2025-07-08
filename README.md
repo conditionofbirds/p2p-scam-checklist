@@ -23,12 +23,10 @@ A user claimed to send a transfer at 14:38. EXIF data revealed image creation ti
 Scammers may send QR codes that appear to be payment confirmations, but are actually generic or reused images.
 
 ###  How to check:
- Decode the QR with a scanner bot or phone — verify if it contains actual transaction details.
+ Decode the QR with a scanner bot or phone — verify if it contains actual transaction details (very important, many cases ends on these stage) 
  Check for consistency: bank name, amount, transaction ID.
  Look for signs of screenshot cropping or template reuse.
-
-###  Example:
-QR led to a static PNG hosted online — not linked to a real transaction.
+For example, QR led to a static PNG hosted online — not linked to a real transaction.
 
 ---
 
@@ -36,26 +34,23 @@ QR led to a static PNG hosted online — not linked to a real transaction.
 Scammers might send PDF/PNG “statements” showing that payment was made.
 
 ###  How to check:
-- Confirm the **sender name matches the verified identity**.
-- Compare the **bank interface UI** to known real ones (scammers often use templates).
-- Validate presence of **transaction number**, not just “sent” message.
+Compare the **bank interface UI** to known real ones (scammers often use templates).
+Validate presence of **transaction number**, not just “sent” message.
+Personally from my exp, сheck the email address from which the statement was sent. It should have a reliable sender, and the official email addresses are publicly available on the bank's website.
 
-###  Tip:
-Request delayed screenshots (10 minutes later) — scammers often can’t reproduce a time-consistent fake.
+###  Adviec by me:
+Request delayed screenshots (10 minutes later) — scammers often can’t reproduce a time-consistent fake. By the way, now scammers draw up cheks and Bank Statement by any neuronet. You can use telegram bot (@TC_Checker_bot) for cheking PDF-valid. The other way, you can scan the QR even via your phone. 95% of these cases - QR is not valid.
 
 ---
 
-## 4. Risk Factor Scoring
-Use a scoring system to determine release risk. Each inconsistency or red flag increases the threshold.
+## 4. Risk Factor examples
+All of that stuff below could signal you about risk 
 
 ### Sample factors:
--  No EXIF data 
+-  No EXIF data (minimal risk)
 -  QR code generic 
--  Timestamp mismatch (MOST IMPORTANT!)
+-  Timestamp mismatch (ALERT!)
 -  Unverified sender name 
-
-If total score >5 → delay transaction, request video proof or decline.
-
 ---
 
 ##  Outcome
