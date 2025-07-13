@@ -47,10 +47,10 @@ Request delayed screenshots (10 minutes later) — scammers often can’t reprod
 All of that stuff below could signal you about risk 
 
 ### Sample factors:
--  No EXIF data (minimal risk)
--  QR code generic 
--  Timestamp mismatch (ALERT!)
--  Unverified sender name 
+ No EXIF data (minimal risk)
+ QR code generic 
+Timestamp mismatch (ALERT!)
+Unverified sender name 
 ---
 
 ##  Outcome
