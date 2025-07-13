@@ -11,7 +11,7 @@ Fraud in P2P crypto trading is often perpetrated through fake payment screenshot
 Fraudsters often send doctored images as "proof" of payment. These may include manipulated timestamps, overlays, or template screenshots reused across multiple scams.
 
 ### How to check:
-- **Inspect image metadata (EXIF)** using Telegram bots or EXIF readers.
+ **Inspect image metadata (EXIF)** using Telegram bots or EXIF readers.
   Look for camera model inconsistencies or missing metadata (sign of editing), check creation vs modification timestamps — if they're mismatched or too recent, it's likely edited.
 
 ###  Example:
